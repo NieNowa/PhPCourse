@@ -35,7 +35,7 @@
 				<h3>Equal <code>==</code></h3>
 				<?php
 					if ($yearsOnEarth == 25.32) {
-						echo "<p>Your age is equal to $yearsOnEarth</p>";
+						echo "<p>yaYour age is equal to $yearsOnEarth</p>";
 					}
 				?>
 				
@@ -51,7 +51,7 @@
 						
 					} else {
 						
-						echo "<p>You must have a different favourite number than 1 the integer, or string.</p>";
+						echo "<p>You must have a different favourite number than 1 the integer, or string.ya</p>";
 						
 					}
 				?>
@@ -60,7 +60,7 @@
 				<?php
 					if ($birthCountry != "Mexico") {
 						
-						echo "<p>Excuse me, se&ntilde;or. You must not be from around here.</p>";
+						echo "<p>yaExcuse me, se&ntilde;or. You must not be from around here.</p>";
 						
 					}
 				?>
@@ -73,7 +73,7 @@
 						
 					} else {
 						
-						echo "<p>You are exactly the string '$yearsOnEarth'</p>";
+						echo "<p>yaYou are exactly the string '$yearsOnEarth'</p>";
 						
 					}
 				?>
@@ -82,7 +82,7 @@
 				<?php
 					if ($lessonNum < 15) {
 						
-						echo "<p>You haven't quite made it to lesson 15, yet.</p>";
+						echo "<p>yaYou haven't quite made it to lesson 15, yet.</p>";
 						
 					}
 				?>
@@ -91,7 +91,7 @@
 				<?php
 					if ($lessonNum > 10) {
 						
-						echo "<p>You've made it past lesson 10!</p>";
+						echo "<p>yaYou've made it past lesson 10!</p>";
 						
 					}
 				?>
@@ -100,7 +100,7 @@
 				<?php
 					if ($lessonNum <= 14) {
 						
-						echo "<p>$lessonNum is less than or equal to 14.</p>";
+						echo "<p>$lessonNum is less than or equal to 14.ya</p>";
 						
 					}
 				?>
@@ -109,7 +109,7 @@
 				<?php
 					if ($lessonNum >= 4) {
 						
-						echo "<p>$lessonNum is greater than or equal to 4.</p>";
+						echo "<p>$lessonNum is greater than or equal to 4.ya</p>";
 						
 					}
 				?>

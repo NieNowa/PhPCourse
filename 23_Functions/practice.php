@@ -32,6 +32,11 @@
 				<?php
 					
 					// your code here
+                                $dinner = array("Nudeln","Fisch","Burger","Salat");
+                                sort($dinner);
+                                foreach($dinner as $gericht){
+                                    echo $gericht . " schmeckt<br>" ;
+                                }
 					
 				?>
 				
@@ -39,7 +44,11 @@
 				<?php
 					
 					// your code here
-					
+				$dinner = array("Nudeln","Fisch","Burger","Salat");
+                                rsort($dinner);
+                                foreach($dinner as $gericht){
+                                    echo $gericht . " schmeckt<br>" ;
+                                }
 				?>
 				
 				<h3>Using <code>strtolower()</code></h3>
